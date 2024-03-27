@@ -37,7 +37,7 @@
 
       FILE *file;
 
-      file=fopen("data.txt", "r");/*Text file consisting of raw data in 50 rows and 20 columns*/
+      file=fopen("elephant_seal_data.txt", "r");/*Text file consisting of raw data in 50 rows and 20 columns*/
 
      for(i = 0; i < 1000; i++)
 
