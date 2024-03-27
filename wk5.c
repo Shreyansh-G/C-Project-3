@@ -1,5 +1,6 @@
 
  /*
+ Author : Shreyansh
  Average weight of elephant seals
  07-11-2023
  */
@@ -28,8 +29,8 @@
 
     int i;
     int j;
-    int r=50;
-    int col=20;
+    int r=63;
+    int col=16;
     int** mat=malloc(r*sizeof(int*));
 
     for(i=0;i<r;++i)
@@ -37,7 +38,7 @@
 
       FILE *file;
 
-      file=fopen("elephant_seal_data.txt", "r");/*Text file consisting of raw data in 50 rows and 20 columns*/
+      file=fopen("elephant_seal_data.txt", "r");/*Edited Text file consisting of raw data in 63 rows and 16 columns*/
 
      for(i = 0; i < 1000; i++)
 
